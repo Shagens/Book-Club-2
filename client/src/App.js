@@ -41,4 +41,7 @@ function App() {
   );
 }
 
+const domContainer = document.querySelector('#App');
+ReactDOM.render(e(App), domContainer);
+
 export default App;
